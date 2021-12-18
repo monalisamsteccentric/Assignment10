@@ -1,0 +1,150 @@
+/* navbar styles */
+.navbar-brand h1{
+    font-family: 'Pacifico', cursive;
+}
+.blue-color{
+    color:#00E8E8;
+}
+.template{
+    border: 1px solid grey;
+}
+.template:hover{
+    background-color:#00E8E8;
+    color:white;
+}
+/* main style */
+.first-div{
+ background: url('image2.jpg') no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ height: 100vh;
+ width:100%; 
+ display: flex;
+ flex-direction:column;
+ align-items: center;
+ justify-content: center;
+}
+.inner-first-div{
+    display: flex;
+    flex-direction: row;    
+}
+.righteous h1{
+    font-family:'Righteous', cursive;
+    color: white;
+    font-size: 50px;
+    padding: 20px;
+}
+.para{
+    font-family:'Righteous', cursive;
+    color: white;
+}
+.btn{
+   margin: 10px;
+   padding: 10px 15px;
+   font-size: 15px;
+}
+.bisque-button{
+    background-color: bisque;
+    color: black;
+}
+.btn-dark{
+    background-color: black;
+}
+
+.btn-dark:hover{
+   background-color: rgb(48, 45, 45);
+}
+.bisque-button:hover{
+    background-color: rgb(122, 195, 201);
+}
+.second-div{
+    text-align: center;
+}
+.second-div h1{
+    font-family: 'Lato', sans-serif;
+    margin: 20px;
+}
+.second-div p{
+    width: 70%;
+    margin:20px auto;
+    font-family: 'Lato', sans-serif;
+    color: grey;
+}
+.card{
+    text-align: center;
+}
+.card-title h4{
+    padding-top: 10px;
+}
+.color-red{
+    background-color: red;
+    color:white;
+}
+.third-div{
+    background: url('image3.jpg') no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    width:100%; 
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;   
+}
+.third-div .para{
+  width: 75%;
+}
+.fourth-div{
+    font-family: 'Lato', sans-serif;
+}
+.fourth-div p{
+    color: grey;
+}
+.card-row{
+    padding: 40px 40px;
+}
+.fas{
+    color: lightseagreen;
+}
+.fifth-div{
+    background-color: #343A40;
+    padding: 8%;
+    color: white;
+}
+.fifth-div img{
+height: 392px;
+width: 590px;
+}
+.content{
+    padding: 0 5%;
+}
+.green-button{
+    background-color: green;
+    color:white;
+    font-size: 30px;
+    border-radius: 10px;
+}
+.green-button:hover{
+background-color: rgb(79, 211, 79);
+color: white;
+}
+.righteous{
+    font-family:'Righteous', cursive;
+    line-height: 50px;
+}
+.button-red{
+    background-color: rgb(194, 39, 39);
+    font-size: 18px;
+    color: white;
+    border: none;
+}
+footer{
+    text-align: center;
+    height: 80vh;
+
+}
+hr{
+    width: 100%;
+    height: 1px;
+}
+
